@@ -1,0 +1,34 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #14213d
+}
+
+body form {
+  color: #e5e5e5;
+  border-radius: 15px;
+  text-decoration: none;
+  background-color: #14213d;
+  display: block;
+  text-align: center;
+  margin: 80px auto 0 auto;
+  padding: 15px;
+  font-size: 20px;
+  width: 20%;
+}
+
+body form a {
+    color: #14213d;
+    border-radius: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #fca311;
+    display: block;
+    text-align: center;
+    margin: 30px auto 30px auto;
+    padding: 30px;
+    font-size: 25px;
+    width: 30%;
+}
