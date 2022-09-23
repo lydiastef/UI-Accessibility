@@ -8,18 +8,42 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section id="form">
-        <form action="/action_page.php">
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname"><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname"><br>
-            <label for="email">e-mail:</label><br>
-            <input type="text" id="email" name="email"><br>
-            <label for="phone">Phone:</label><br>
-            <input type="text" id="phone" name="phone"><br><br>
-            <a href="#">Submit</a>
-        </form>
-    </section>
+    <header>
+        <h1>Page with such a cool form</h1>
+        <p>Submit this form!<br>Now!</p>
+    </header>
+    <div class="flex-container">
+        <div>
+            <section aria-live="assertive" aria-atomic="true" id="form">
+                <form action="/action_page.php">
+                    <div class="errors" role="alert" aria-relevant="all" class="forms">
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname"><br><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname"><br><br>
+                        <label for="email">e-mail:</label><br>
+                        <input type="text" id="email" name="email"><br><br>
+                        <label for="phone">Phone:</label><br>
+                        <input type="text" id="phone" name="phone"><br><br>
+                        <label class="checkbox" for="mycheckboxId">
+                            <input class="checkbox__input" type="checkbox" name="myCheckboxName" id="myCheckboxId">
+                            <div class="checkbox__box"></div>
+                            Subscribe to newsletter
+                        </label>
+                        <a href="#">Submit</a>
+                    </div>
+                </form>
+            </section>
+        </div>
+        <div>
+            <section id="image">
+                <img src="pexels-oleksandr-pidvalnyi-2070485.jpg" alt="woman in yoga position">
+            </section>
+        </div>
+    </div>
+    <footer>
+        <h1>End of this really cool form page</h1>
+        <p>Bye bye</p>
+    </footer>
 </body>
 </html>
