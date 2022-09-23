@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The cool form</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,19 +12,22 @@
         <h1>Page with such a cool form</h1>
         <p>Submit this form!<br>Now!</p>
     </header>
-    <div class="flex-container">
+    <div class="flex-container"> <!--Container to make the form and image be side by side-->
         <div>
             <section aria-live="assertive" aria-atomic="true" id="form">
+                <!--This aria code will make the screen reader read the heading and updates-->
                 <form action="/action_page.php">
                     <div class="errors" role="alert" aria-relevant="all" class="forms">
+                        <!--This aria code will make the screen reader read any validation errors 
+                        (if there are any) when the user submits the form-->
                         <label for="fname">First name:</label><br>
-                        <input type="text" id="fname" name="fname"><br><br>
+                        <input type="text" class="write" id="fname" name="fname"><br><br>
                         <label for="lname">Last name:</label><br>
-                        <input type="text" id="lname" name="lname"><br><br>
+                        <input type="text" class="write" id="lname" name="lname"><br><br>
                         <label for="email">e-mail:</label><br>
-                        <input type="text" id="email" name="email"><br><br>
+                        <input type="text" class="write" id="email" name="email"><br><br>
                         <label for="phone">Phone:</label><br>
-                        <input type="text" id="phone" name="phone"><br><br>
+                        <input type="text" class="write" id="phone" name="phone"><br><br>
                         <label class="checkbox" for="mycheckboxId">
                             <input class="checkbox__input" type="checkbox" name="myCheckboxName" id="myCheckboxId">
                             <div class="checkbox__box"></div>

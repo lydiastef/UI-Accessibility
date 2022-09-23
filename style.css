@@ -59,9 +59,16 @@ input {
     border-radius: 8px;
 }
 
+.write {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    /*The written letters inside the form boxes will be large and easy to see*/
+}
+
 input text {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
+    /*Simple and large font, easy to read*/
 }
 
 label {
@@ -89,6 +96,8 @@ label {
     font-size: 20px;
     width: 30%;
     max-width: 100%;
+    /*Button is large and bright yellow on a dark blue background. 
+    Strong color contrast makes it stand out to the user*/
 }
 
 a:hover {
